@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(90, 109, 172);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font: white;
+    text-align: center;
+
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font: white;
+    padding: 20px;
+    align-self: center;
+    
+}
+
+#placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font: white;
+    padding: 20px;
+    align-self: center;
+    
+}
