@@ -1,27 +1,44 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <title>Code Quiz</title>
-</head>
-<body>
-        <h1>Coding Quiz: Test Your Knowledge!</h1>
-        <div class="container">
-            <button type="button">Start Quiz Now!</button>
+  </head>
+  <body>
+    <div class="container">
+        <div id="startquiz" class="row">
+            <div class="col-12">
+                <h1>Welcome to the Coding Quiz</h1>
+                <h3>Click the button below to begin!</h3>
+                <button id="startbutton" type="button" class="btn btn-info">Start!</button>
+            </div>
         </div>
-        <br>
-
-        <div class="placeholder">
-            <button>A</button>
-            <button>B</button>
-            <button>C</button>
-            <button>D</button>
-
+        <div class="row hide" id="quizquestions">
+            <span id="timer"></span>
+            <p id="questiontitle"></p>
+            <button id="choice1" type="button"></button>
+            <button id="choice2" type="button"></button>
+            <button id="choice3" type="button"></button>
+            <button id="choice4" type="button"></button>
+            <div id="message"></div>
         </div>
+        <div class="row hide" id="quizend">
+            <span>Initials</span><input id="initials" type="text"><button id="savescore" type="button">Submit</button>
+        </div>
+    </div>
 
-
-        <script href="assets/script.js"></script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+  </body>
 </html>

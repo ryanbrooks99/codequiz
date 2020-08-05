@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(90, 109, 172);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -35,4 +36,8 @@ h1 {
     padding: 20px;
     align-self: center;
     
+}
+
+.hide{
+    display: none;
 }
