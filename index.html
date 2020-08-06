@@ -20,16 +20,30 @@
             </div>
         </div>
         <div class="row hide" id="quizquestions">
-            <span id="timer"></span>
+          <div class="col-10">
             <p id="questiontitle"></p>
-            <button id="choice1" type="button"></button>
+            <div>
+              <button id="choice1" type="button"></button>
             <button id="choice2" type="button"></button>
             <button id="choice3" type="button"></button>
             <button id="choice4" type="button"></button>
+            </div> 
             <div id="message"></div>
+          </div>
+          <div class=col-2>
+            <span id="timer" style="text-align: left;"></span>
+          </div>  
         </div>
         <div class="row hide" id="quizend">
+          <div class="col-10">
+            <div class=col-2>
+              <span id="score" style="text-align: left;"></span>
+            </div>  
             <span>Initials</span><input id="initials" type="text"><button id="savescore" type="button">Submit</button>
+          </div>
+           <div>
+             <ol id="highscores"></ol>
+           </div> 
         </div>
     </div>
 
