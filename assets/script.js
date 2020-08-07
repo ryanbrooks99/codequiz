@@ -142,7 +142,7 @@ function saveScore() {
   var newScore = {initials:initials, score: timeLeft}
   highScores.push(newScore);
   localStorage.setItem("highscores", JSON.stringify(highScores))
-  // window.location.href = "scores.html";
+  window.location.href = "scores.html";
   loadScores()
 }
 

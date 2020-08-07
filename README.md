@@ -1,2 +1,2 @@
 # Code Quiz
-#   For this assignment, I created a quiz based on coding from scratch. 
+#   For this assignment, I created a quiz based on coding knowledge from scratch. When the quiz taker presses the start button, it launches an array of mulitple choice questions they must solve. If the taker gets an answer incorrect, the time is docked by 10 seconds and impacts their final score. After the quiz is over, the taker enters their initials and is taken to the high scores page to see their results. This quiz utilizes javascript if/else statements, for loops, various functions, and local storage.
